@@ -154,3 +154,12 @@ h6,
     font-size: 15px;
     padding-right: 20px;
 }
+
+.gigs > li .actions {
+    font-size: 15px;
+    display: none;
+}
+
+.gigs > li:hover .actions {
+    display: block;
+}
